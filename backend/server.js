@@ -7,7 +7,22 @@ import explainRouter from './routes/explain.js'
 const app = express()
 
 app.use(express.json({ limit: '10mb' }))
-app.use(cors())
+const ALLOWED = [
+  'http://localhost:5173',
+  'http://localhost:4173',
+  'https://reconx-app.vercel.app',
+]
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || ALLOWED.some(o => origin.startsWith(o))) {
+      callback(null, true)
+    } else {
+      callback(new Error('Not allowed by CORS'))
+    }
+  },
+  methods: ['GET', 'POST'],
+  allowedHeaders: ['Content-Type'],
+}))
 
 app.use('/api/reconcile', reconcileRouter)
 app.use('/api/explain', explainRouter)
