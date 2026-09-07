@@ -1,0 +1,10 @@
+transaction_id,amount,date,description
+TXN001,15000.00,2026-08-01,Vendor A receipt
+TXN002,8450.50,2026-08-01,Salary credit
+TXN003,2200.00,2026-08-02,Supplies purchase
+TXN004,45000.00,2026-08-02,Equipment
+TXN005,1100.00,2026-08-03,ISP payment
+TXN007,9750.00,2026-08-04,Freelancer payment
+TXN008,700.00,2026-08-04,Cash
+TXN009,22000.00,2026-08-05,Office rent
+TXN011,3800.00,2026-08-06,New entry not in internal

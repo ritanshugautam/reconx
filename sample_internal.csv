@@ -1,0 +1,11 @@
+transaction_id,amount,date,description
+TXN001,15000.00,2026-08-01,Payment to Vendor A
+TXN002,8500.50,2026-08-01,Salary disbursement
+TXN003,2200.00,2026-08-02,Office supplies
+TXN004,45000.00,2026-08-02,Equipment purchase
+TXN005,1100.00,2026-08-03,Internet bill
+TXN006,3300.00,2026-08-03,Marketing spend
+TXN007,9750.00,2026-08-04,Contractor payment
+TXN008,650.00,2026-08-04,Petty cash
+TXN009,22000.00,2026-08-05,Rent payment
+TXN010,5500.00,2026-08-05,Software license
