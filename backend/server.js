@@ -10,7 +10,7 @@ app.use(express.json({ limit: '10mb' }))
 const ALLOWED = [
   'http://localhost:5173',
   'http://localhost:4173',
-  'https://reconx-app.vercel.app',
+  'https://reconx-98sk8i4k2-solace7.vercel.app',
 ]
 app.use(cors({
   origin: function (origin, callback) {
