@@ -1,5 +1,7 @@
 # ReconX: manual QA report
 
+**Start here:** [ReconX_QA_Report.pdf](ReconX_QA_Report.pdf) (8 pages, one test per page, screenshot on each).
+
 Tester: Ritanshu Gautam. Application: [ReconX](https://reconx-mu.vercel.app) (live deployment). Tested 16 Nov 2026 in Brave on macOS.
 
 **Result:** 7 manual test cases executed (2 passed, 5 failed). 7 defects reported as [GitHub Issues](https://github.com/ritanshugautam/reconx/issues): 3 High, 2 Medium, 2 Low.
