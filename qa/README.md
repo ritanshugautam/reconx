@@ -26,7 +26,7 @@ Full log with expected and actual results: [test-log.csv](test-log.csv). Test da
 
 ## Defects
 
-### DEF-01 (High): Duplicate IDs in one file are silently dropped, causing a false mismatch
+### DEF-01 (High): Duplicate IDs in one file are silently dropped, causing a false mismatch ([issue #1](https://github.com/ritanshugautam/reconx/issues/1))
 
 Found by T06. 
 
@@ -46,7 +46,7 @@ Found by T06.
 ![T06_dashboard.png](evidence/T06_dashboard.png)
 ![T06_ai_and_table.png](evidence/T06_ai_and_table.png)
 
-### DEF-02 (High): Blank amount is read as 0.00 and shown as Matched
+### DEF-02 (High): Blank amount is read as 0.00 and shown as Matched ([issue #2](https://github.com/ritanshugautam/reconx/issues/2))
 
 Found by T07. 
 
@@ -65,7 +65,7 @@ Found by T07.
 
 ![T07_result.png](evidence/T07_result.png)
 
-### DEF-03 (High): Formatted or non-numeric amounts are misread as 1.00 or 0.00 with no warning
+### DEF-03 (High): Formatted or non-numeric amounts are misread as 1.00 or 0.00 with no warning ([issue #3](https://github.com/ritanshugautam/reconx/issues/3))
 
 Found by T08. 
 
@@ -84,7 +84,7 @@ Found by T08.
 
 ![T08_result.png](evidence/T08_result.png)
 
-### DEF-04 (Medium): Tolerance check gives different results for the same 0.01 difference
+### DEF-04 (Medium): Tolerance check gives different results for the same 0.01 difference ([issue #4](https://github.com/ritanshugautam/reconx/issues/4))
 
 Found by T03. 
 
@@ -103,7 +103,7 @@ Found by T03.
 
 ![T03_result.png](evidence/T03_result.png)
 
-### DEF-05 (Medium): AI analysis names a cause the data contradicts (fee deduction for an amount that went up)
+### DEF-05 (Medium): AI analysis names a cause the data contradicts (fee deduction for an amount that went up) ([issue #5](https://github.com/ritanshugautam/reconx/issues/5))
 
 Found by T01. 
 
@@ -122,7 +122,7 @@ Found by T01.
 ![T01_ai_analysis.png](evidence/T01_ai_analysis.png)
 ![T01_transaction_table.png](evidence/T01_transaction_table.png)
 
-### DEF-06 (Low): AI analysis shows raw markdown symbols (** and *)
+### DEF-06 (Low): AI analysis shows raw markdown symbols (** and *) ([issue #6](https://github.com/ritanshugautam/reconx/issues/6))
 
 Found by T01. 
 
@@ -140,7 +140,7 @@ Found by T01.
 
 ![T01_ai_analysis.png](evidence/T01_ai_analysis.png)
 
-### DEF-07 (Low): Transaction IDs that differ only by letter case are treated as different transactions
+### DEF-07 (Low): Transaction IDs that differ only by letter case are treated as different transactions ([issue #7](https://github.com/ritanshugautam/reconx/issues/7))
 
 Found by T04. 
 
